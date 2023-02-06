@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="shortcut icon" href="src/assets/favicon/favicon-32x32.png" type="image/x-icon">
+    <script defer src="src/js/app.js"></script>
+    <title>Countdown</title>
+  </head>
+  <body>
+    <img
+      class="top-image"
+      src="src/assets/images/top-image.svg"
+      alt="Imagem de cima"
+    />
+
+    <main>
+      <div class="left">
+        <h1>Ready to launch in...</h1>
+        <div class="countdown">
+          <div class="timer">
+            <small class="unit">Dias</small>
+            <strong id="countdown-days" class="time">00</strong>
+          </div>
+          <div class="timer">
+            <small class="unit">Horas</small>
+            <strong id="countdown-hours" class="time">00</strong>
+          </div>
+
+          <div class="timer">
+            <small class="unit">Minutos</small>
+            <strong id="countdown-minutes" class="time">00</strong>
+          </div>
+
+          <div class="timer">
+            <small class="unit">Segundos</small>
+            <strong id="countdown-seconds" class="time">00</strong>
+          </div>
+        </div>
+
+        <p>Altere o tempo com o botão abaixo</p>
+
+        <button id="open-button">Configurar</button>
+      </div>
+      <div class="right">
+        <img id="rocket" class="rocket" src="src/assets/images/rocket.svg" alt="Foguete" />
+        <img id="smoke" class="smoke hidden" src="src/assets/images/smoke.svg" alt="Fumaça" />
+        <img class="stars" src="src/assets/images/stars.svg" alt="Estrelas" />
+        <button id="reset-button" class="reset-button hidden">Reiniciar 🚀</button>
+      </div>
+    </main>
+
+    <img
+      class="bottom-image"
+      src="src/assets/images/bottom-image.svg"
+      alt="Imagem debaixo"
+    />
+
+    <div id="fade" class="fade hidden"></div>
+    <form id="modal" class="modal hidden">
+        <div class="header">
+            <select name="step-control" id="step-control" class="step-control">
+                <option value="1">x1</option>
+                <option value="5">x5</option>
+                <option value="10">x10</option>
+            </select>
+                  <i id="close-button" class="fa-solid fa-x close"></i>
+        </div class="header">
+      <div class="config-timer">
+        <div class="config-time">
+          <input
+            id="config-days"
+            type="number"
+            value="02"
+            min="00"
+            max="24"
+            required
+            readonly
+          />
+          <span>Dias</span>
+          <div class="controls">
+            <button id="plus" type="button" class="control">+</button>
+            <button id="minus" type="button" class="control">-</button>
+          </div>
+        </div>
+        <span class="colon">:</span>
+        <div class="config-time">
+          <input
+            id="config-hours"
+            type="number"
+            value="00"
+            min="00"
+            max="60"
+            required
+            readonly
+          />
+          <span>Horas</span>
+          <div class="controls">
+            <button id="plus" type="button" class="control">+</button>
+            <button id="minus" type="button" class="control">-</button>
+          </div>
+        </div>
+        <span class="colon">:</span>
+        <div class="config-time">
+          <input
+            id="config-minutes"
+            type="number"
+            value="00"
+            min="00"
+            max="60"
+            required
+            readonly
+          />
+          <span>Minutos</span>
+          <div class="controls">
+            <button id="plus" type="button" class="control">+</button>
+            <button id="minus" type="button" class="control">-</button>
+          </div>
+        </div>
+        <span class="colon">:</span>
+        <div class="config-time">
+          <input
+            id="config-seconds"
+            type="number"
+            value="00"
+            min="00"
+            max="60"
+            required
+            readonly
+          />
+          <span>Segundos</span>
+          <div class="controls">
+            <button id="plus" type="button" class="control">+</button>
+            <button id="minus" type="button" class="control">-</button>
+          </div>
+        </div>
+      </div>
+      <button type="submit">Configurar tempo</button>
+    </form>
+  </body>
+</html>
