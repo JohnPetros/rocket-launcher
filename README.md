@@ -82,7 +82,7 @@ $ code .
 
 ## ⚙️ Deploy
 
-O deploy desse projeto foi realizado através do **[Github Pages](https://www.infinityfree.net/)**. Isso implica que você pode acessar o projeto funcionando acessando esse **[link](https://johnpetros.github.io/super-trunfo-clash-royale/)**
+O deploy desse projeto foi realizado através do **[Github Pages](https://pages.github.com/)**. Isso implica que você pode acessar o projeto funcionando acessando esse **[link](johnpetros.github.io/rocket-launcher/)**
 
 ---
 
