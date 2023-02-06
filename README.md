@@ -24,7 +24,7 @@
 
 Projeto de **rocket-launcher customizável**, ou seja, permite o usuário definir o tempo de uma contagem regressiva. Quando temporizador chega a zero, o foguete presente na página é lançado para o céu. Esse projeto foi inspirado em um desafio do Discover, que é um programa promovido pela **@Rocketseat** voltado para o ensino de programação web para iniciantes.
 
-### Demonstração
+### ⏹️ Demonstração
 
 
 <div align="center">
