@@ -6,29 +6,29 @@
    <a href="https://github.com/JohnPetros">
       <img alt="Made by JohnPetros" src="https://img.shields.io/badge/made%20by-JohnPetros-blueviolet">
    </a>
-   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetros/countdown">
-   <a href="https://github.com/JohnPetros/countdown/commits/main">
-      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JohnPetros/countdown">
+   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetros/rocket-launcher">
+   <a href="https://github.com/JohnPetros/rocket-launcher/commits/main">
+      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JohnPetros/rocket-launcher">
    </a>
   </a>
    </a>
-   <a href="https://github.com/JohnPetros/countdown/blob/main/LICENSE.md">
-      <img alt="GitHub License" src="https://img.shields.io/github/license/JohnPetros/countdown">
+   <a href="https://github.com/JohnPetros/rocket-launcher/blob/main/LICENSE.md">
+      <img alt="GitHub License" src="https://img.shields.io/github/license/JohnPetros/rocket-launcher">
    </a>
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/JohnPetros/countdown?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/JohnPetros/rocket-launcher?style=social">
 </div>
 
 <br>
 
 ## 🖥️ Projeto
 
-Projeto de **countdown customizável**, ou seja, permite o usuário definir o tempo de uma contagem regressiva. Quando temporizador chega a zero, o foguete presente na página é lançado para o céu. Esse projeto foi inspirado em um desafio do Discover, que é um programa promovido pela **@Rocketseat** voltado para o ensino de programação web para iniciantes.
+Projeto de **rocket-launcher customizável**, ou seja, permite o usuário definir o tempo de uma contagem regressiva. Quando temporizador chega a zero, o foguete presente na página é lançado para o céu. Esse projeto foi inspirado em um desafio do Discover, que é um programa promovido pela **@Rocketseat** voltado para o ensino de programação web para iniciantes.
 
 ### Demonstração
 
 
 <div align="center">
-    <img width="750" alt="GIF demontrando o Rocket Launcher" src="./src/.github/countdown.gif" />
+    <img width="750" alt="GIF demontrando o Rocket Launcher" src="./src/.github/rocket-launcher.gif" />
 </div>
 
 ---
@@ -66,10 +66,10 @@ Embora não seja obrigatório, para rodar a aplicação de uma forma mais práti
 ```bash
 
 # Clone este repositório no terminal/cmd
-$ git clone https://github.com/JohnPetros/countdown.git
+$ git clone https://github.com/JohnPetros/rocket-launcher.git
 
 # Acesse a pasta do projeto
-$ cd countdown
+$ cd rocket-launcher
 
 # Abra a pasta no VSCode
 $ code .
@@ -90,7 +90,7 @@ O deploy desse projeto foi realizado através do **[Github Pages](https://www.in
 
 No link abaixo você encontra o layout do desafio original feito pela equipe da Rocketseat. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
-- [Layout](https://www.figma.com/file/f8etB9sLR00CjZEsBQPDTX/DD-%2F-Countdown-(Copy)?node-id=0%3A1&t=UWlddMnD)
+- [Layout](https://www.figma.com/file/f8etB9sLR00CjZEsBQPDTX/DD-%2F-rocket-launcher-(Copy)?node-id=0%3A1&t=UWlddMnD)
 
 ---
 
